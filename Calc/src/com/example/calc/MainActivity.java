@@ -41,6 +41,7 @@ public class MainActivity extends Activity {
 	void Clear() {
 		
 		mDisplay.setText("");
+		
 	}
 	
 	
