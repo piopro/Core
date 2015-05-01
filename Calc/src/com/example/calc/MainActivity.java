@@ -1,13 +1,11 @@
 package com.example.calc;
 
 import android.app.Activity;
-import android.bluetooth.BluetoothClass.Service;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Button;
-import android.view.KeyEvent;
 import android.view.View;
 
 public class MainActivity extends Activity {
@@ -164,4 +162,6 @@ public class MainActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
+    
 }
+
