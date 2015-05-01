@@ -109,14 +109,10 @@ public class MainActivity extends Activity {
 		});	
 	}
 	
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        
+	
+	void LinkGUI() {
+		
 		mDisplay = (EditText)findViewById(R.id.Display);
-        
         SetButtonListener(R.id.btn_0);
         SetButtonListener(R.id.btn_1);
         SetButtonListener(R.id.btn_2);
@@ -136,6 +132,16 @@ public class MainActivity extends Activity {
         SetButtonListener(R.id.btn_mul);
         SetButtonListener(R.id.btn_pls);
         SetButtonListener(R.id.btn_res);
+	
+	}
+	
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+    	
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        LinkGUI();
         
     }
 
